@@ -1,0 +1,25 @@
+{
+  "name": "travis-heroku",
+  "version": "1.0.0",
+  "description": "How to deploy an node-js application to heroku using the travis CI.",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Teste: Lets Deploy the app\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusribeirog/travis-heroku.git"
+  },
+  "author": "Matheus Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusribeirog/travis-heroku/issues"
+  },
+  "homepage": "https://github.com/matheusribeirog/travis-heroku#readme"
+}
