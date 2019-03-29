@@ -2,7 +2,5 @@ language: node_js
 
 notifications:
   email:
-    recipients:
-      - matheus.gomes94@etec.sp.gov.br
     on_success: always # default: change
     on_failure: always # default: always
