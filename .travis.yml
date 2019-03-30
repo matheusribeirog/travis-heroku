@@ -1,5 +1,11 @@
 language: node_js
 
 notifications:
+<<<<<<< HEAD
   slack:
     on_success: always
+=======
+  email:
+    on_success: always # default: change
+    on_failure: always # default: always
+>>>>>>> c690a6d02888df4d27af3bcf0a23fa438979f803
