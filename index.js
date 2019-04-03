@@ -5,7 +5,7 @@ let app=express();
 app.set("view engine", "ejs")
 
 app.get("/", function(req,res){
-    res.render("inicio")
+    res.render("iniciog")
 })
 
 app.get("/admin",(req,res)=>{
